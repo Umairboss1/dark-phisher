@@ -359,10 +359,8 @@ about() {
 		  only ${RED}!${WHITE}${CYAN} Author will not be responsible for 
 		  any misuse of this toolkit ${RED}!${WHITE}
 		
-		${WHITE} ${CYANBG}Special Thanks to:${RESETBG}
-		${GREEN}  1RaY-1, Adi1090x, AliMilani, BDhackers009,
-		  KasRoudra, E343IO, sepp0, ThelinuxChoice,
-		  Yisus7u7
+		${WHITE} ${CYANBG}Special Thanks to Team:${RESETBG}
+		${GREEN}  UMAIR BOSS, UK UMAIR, AS HACKER ❤️
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
