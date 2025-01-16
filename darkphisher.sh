@@ -166,12 +166,12 @@ check_update(){
 		echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${ORANGE} Downloading Update..."
 		pushd "$HOME" > /dev/null 2>&1
 		curl --silent --insecure --fail --retry-connrefused \
-		--retry 3 --retry-delay 2 --location --output ".zphisher.tar.gz" "${tarball_url}"
+		--retry 3 --retry-delay 2 --location --output ".dark-phisher.tar.gz" "${tarball_url}"
 
-		if [[ -e ".zphisher.tar.gz" ]]; then
-			tar -xf .zphisher.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
+		if [[ -e ".dark-phisher.tar.gz" ]]; then
+			tar -xf .dark-phisher.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
 			[ $? -ne 0 ] && { echo -e "\n\n${RED}[${WHITE}!${RED}]${RED} Error occured while extracting."; reset_color; exit 1; }
-			rm -f .zphisher.tar.gz
+			rm -f .dark-phisher.tar.gz
 			popd > /dev/null 2>&1
 			{ sleep 3; clear; banner_small; }
 			echo -ne "\n${GREEN}[${WHITE}+${GREEN}] Successfully updated! Run darkphisher again\n\n"${WHITE}
