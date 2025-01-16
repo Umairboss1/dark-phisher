@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.3.5
-##   Github 	: 	https://github.com/htr-tech/zphisher
+##   darkphisher    : 	Automated Phishing Tool
+##   Author 	    : 	DARK SHADOW
+##   Version 	    : 	2.3.5
+##   Github 	    : 	https://github.com/Umairboss1/dark-phisher
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -349,9 +349,10 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
+		${GREEN} Author   ${RED}:  ${ORANGE}DARK SHADOW${RED}[ ${ORANGE}UMAIR BOSS${RED}]
+                ${GREEN} TEAM     ${RED}:  ${ORANGE}TEAM UK 84 ${RED}[ ${ORANGE} OFFICIAL ${RED}]
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/Umairboss1
+		${GREEN} Social   ${RED}:  ${CYAN}https://youtube.com/@dark_shadow_boss
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
